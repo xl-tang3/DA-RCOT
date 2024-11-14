@@ -358,7 +358,8 @@ def train(training_data_loader, T_optimizer, F_optimizer, Tnet, Fnet, epoch):
                     pos += torch.mean(torch.exp(-z1 * z2 / 0.07))
                 else:
                     neg += torch.mean(torch.exp(z1 * z2 / 0.07))
-                contrastive_loss = pos + neg
+                  
+              contrastive_loss = pos + neg
 
 
         if iteration < opt.pairnum // opt.batchSize:
