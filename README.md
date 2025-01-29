@@ -84,6 +84,12 @@ The testing data should be placed in the ```test``` directory wherein each task 
     ├───denoise
     │   ├───bsd68
     │   └───kodak24
+    ├───deblur
+    │   ├───input
+    │   └───target
+    ├───lowlight
+    │   ├───low
+    │   └───high
     └───derain
     │   └───Rain100L
     │        ├───input
