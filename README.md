@@ -43,14 +43,15 @@ pip install matplotlib
 ###  Dataset Download and Preperation
 
 All the datasets used in the paper can be downloaded from the following locations:
+| Dataset           | Task     | Test Results |
+| :---------------- | :------ | ----: |
+| SOTS             |   Dehazing   | [Download](https://sites.google.com/view/reside-dehaze-datasets/reside-v0) |
+| BSD68             |   Denoising   | [Download](https://github.com/mv-lab/InstructIR/releases/download/instructir-results/instructir_results.zip) |
+| Urban100          |   Denoising   | [Download](https://github.com/mv-lab/InstructIR/releases/download/instructir-results/instructir_results.zip) |
+| Rain100           |   Deraining   | [Download](https://github.com/mv-lab/InstructIR/releases/download/instructir-results/instructir_results.zip) |
+| [GoPro](https://seungjunnah.github.io/Datasets/gopro)             |   Deblurring  | [Download](https://github.com/mv-lab/InstructIR/releases/download/instructir-results/instructir_results.zip) |
+| [LOL](https://daooshee.github.io/BMVC2018website/)               |   LoL Image Enhancement   | [Download](https://github.com/mv-lab/InstructIR/releases/download/instructir-results/instructir_results.zip) |
 
-Denoising: [BSD400](https://drive.google.com/file/d/1idKFDkAHJGAFDn1OyXZxsTbOSBx9GS8N/view?usp=sharing), [WED](https://drive.google.com/file/d/19_mCE_GXfmE5yYsm-HEzuZQqmwMjPpJr/view?usp=sharing), [Kodak24]([https://drive.google.com/drive/folders/1B3DJGQKB6eNdwuQIhdskA64qUuVKLZ9u](https://www.kaggle.com/datasets/drxinchengzhu/kodak24/data))
-
-Deraining: [Train100L&Rain100L](https://drive.google.com/drive/folders/1-_Tw-LHJF4vh8fpogKgZx1EQ9MhsJI_f?usp=sharing)
-
-Dehazing: [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/reside-v0) (SOTS)
-
-Super-Resolution: [DIV2K x4](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
 
 The training data should be placed in ``` data/Train/{task_name}``` directory where ```task_name``` can be Denoise, Derain, Dehaze or any single degradation.
 After placing the training data the directory structure would be as follows:
