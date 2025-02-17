@@ -53,7 +53,6 @@ Dehazing: [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/reside-v
 Deblurring: [GoPro](https://seungjunnah.github.io/Datasets/gopro.html) 
 
 Low-light enhancement: [LOLv1](https://github.com/caiyuanhao1998/Retinexformer) 
-All the datasets used in the paper can be downloaded from the following locations:
 
 The training data should be placed in ``` data/Train/{task_name}``` directory where ```task_name``` can be Denoise, Derain, Dehaze or any single degradation.
 After placing the training data the directory structure would be as follows:
@@ -117,8 +116,11 @@ python trainer_demo.py --batchSize=2 --nEpochs=55 --pairnum=10000000 --Sigma=100
 
 
 ###  Pretrained Weights
+https://drive.google.com/drive/folders/1upmN7JeXQjufH2dJhBoHMzUFlSTCrv2m?usp=sharing
 
-To be released.
-
+### Mixed-degradation data and our results
+https://drive.google.com/drive/folders/1HmOj5-XNO5XJo21k5PDCKY4sBeYtH084?usp=sharing
 
 Contact me at Sherlock315@163.com if there is any problem.
+
+
