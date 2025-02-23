@@ -102,13 +102,13 @@ The testing data should be placed in the ```test``` directory wherein each task 
 #### 3 Degradation example:
 
 ```
-python trainer.py --batchSize=2 --nEpochs=45 --pairnum=10000000 --Sigma=10000 --sigma=1 --de_type derain dehaze denoise_15 denoise_25 denoise_50 --patch_size=128  --type all --gpus=0 --backbone=MRCNet --step=15 --resume=none
+python trainer.py --batchSize=2 --nEpochs=50 --pairnum=10000000 --Sigma=10000 --sigma=1 --de_type derain dehaze denoise_15 denoise_25 denoise_50 --patch_size=128  --type all --gpus=0 --backbone=MRCNet --step=15 --resume=none
 ```
 
 #### 5 Degradation example:
 
 ```
-python trainer_demo.py --batchSize=2 --nEpochs=55 --pairnum=10000000 --Sigma=10000 --sigma=1 --de_type derain dehaze denoise_15 denoise_25 denoise_50 deblur lowlight --patch_size=128 --type all --gpus=0 --backbone=MRCNet --step=10 --resume=none
+python trainer.py --batchSize=2 --nEpochs=55 --pairnum=10000000 --Sigma=10000 --sigma=1 --de_type derain dehaze denoise_15 denoise_25 denoise_50 deblur lowlight --patch_size=128 --type all --gpus=0 --backbone=MRCNet --step=15 --resume=none
 ```
 
 #### 
