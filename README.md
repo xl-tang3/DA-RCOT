@@ -118,6 +118,20 @@ python trainer_demo.py --batchSize=2 --nEpochs=55 --pairnum=10000000 --Sigma=100
 ###  Pretrained Weights
 https://drive.google.com/drive/folders/1upmN7JeXQjufH2dJhBoHMzUFlSTCrv2m?usp=sharing
 
+### Results
+Performance results of the DA-RCOT framework trained under the all-in-one setting.
+
+<details>
+<summary><strong>Three Distinct Degradations</strong> (click to expand) </summary>
+
+<img src = "figs/darcot3d.PNG"> 
+</details>
+<details>
+<summary><strong>Five Distinct Degradations</strong> (click to expand) </summary>
+
+<img src = "figs/darcot5d.PNG"> 
+</details><be>
+
 ### Mixed-degradation data and our results
 https://drive.google.com/drive/folders/1HmOj5-XNO5XJo21k5PDCKY4sBeYtH084?usp=sharing
 
