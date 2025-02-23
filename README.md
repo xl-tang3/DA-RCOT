@@ -124,12 +124,12 @@ Performance results of the DA-RCOT framework trained under the all-in-one settin
 <details>
 <summary><strong>Three Distinct Degradations</strong> (click to expand) </summary>
 
-<img src = "darcot3d.PNG"> 
+<img src = "darcot3D.PNG"> 
 </details>
 <details>
 <summary><strong>Five Distinct Degradations</strong> (click to expand) </summary>
 
-<img src = "darcot5d.PNG"> 
+<img src = "darcot5D.PNG"> 
 </details><be>
 
 ### Mixed-degradation data and our results
