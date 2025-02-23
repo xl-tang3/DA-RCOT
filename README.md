@@ -132,6 +132,9 @@ Performance results of the DA-RCOT framework trained under the all-in-one settin
 <img src = "figs/darcot5D.png"> 
 </details><be>
 
+#### 5D visual examples
+![image](https://github.com/user-attachments/assets/48e58cdb-aabe-42d6-8c83-5408f6995639)
+
 ### Mixed-degradation data and our results
 [Data & Results ](https://drive.google.com/drive/folders/1HmOj5-XNO5XJo21k5PDCKY4sBeYtH084?usp=sharing)
 
