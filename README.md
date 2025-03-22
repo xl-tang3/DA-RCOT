@@ -14,7 +14,7 @@ Follow these instructions.
 
 1. Clone our repository
 ```
-git clone https://github.com/xl-tang3/RCOT.git
+git clone https://github.com/xl-tang3/DA-RCOT.git
 cd RCOT
 ```
 
