@@ -1,4 +1,4 @@
-# Degradation-Aware Residual-Conditioned Optimal Transport (DA-RCOT) for All-in-One Image Restoration
+# (IEEE TPAMI 25) Degradation-Aware Residual-Conditioned Optimal Transport (DA-RCOT) for All-in-One Image Restoration
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2411.01656)
 
 <hr />
