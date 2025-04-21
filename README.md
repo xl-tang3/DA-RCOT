@@ -139,6 +139,19 @@ Performance results of the DA-RCOT framework trained under the all-in-one settin
 ### Mixed-degradation data and our results
 [Data & Results ](https://drive.google.com/drive/folders/1HmOj5-XNO5XJo21k5PDCKY4sBeYtH084?usp=sharing)
 
+## Citation
+```
+@article{tang2025degradation,
+  author={Tang, Xiaole and Gu, Xiang and He, Xiaoyi and Hu, Xin and Sun, Jian},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Degradation-Aware Residual-Conditioned Optimal Transport for Unified Image Restoration}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-16}}
+
+```
+
 Contact me at Sherlock315@163.com if there is any problem.
 
 
