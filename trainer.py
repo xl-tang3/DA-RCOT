@@ -55,7 +55,7 @@ parser.add_argument("--tarset", default="./data/test/derain/Rain100L/target/", t
 parser.add_argument("--Sigma", default=10000, type=float)
 parser.add_argument("--sigma", default=1, type=float)
 parser.add_argument("--optimizer", default="RMSprop", type=str, help="optimizer type")
-parser.add_argument("--backbone", default="RCNet", type=str, help="architecture name")
+parser.add_argument("--backbone", default="MRCNet", type=str, help="architecture name")
 parser.add_argument("--type", default="Deraining", type=str, help="to distinguish the ckpt name ")
 parser.add_argument('--patch_size', type=int, default=128, help='patchsize of input.')
 # path
