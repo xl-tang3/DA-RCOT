@@ -98,7 +98,7 @@ The testing data should be placed in the ```test``` directory wherein each task 
     │        └───target
 ```
 ### Training 
-The backbone **MRCNet** employs Restormer as the base architecture, integrated with our two-pass multi-scale residual design. condition mechanism.
+The backbone **MRCNet** employs Restormer as the base architecture, integrated with our two-pass multi-scale residual condition mechanism.
 
 #### 3 Degradation example:
 
