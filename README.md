@@ -146,8 +146,8 @@ Performance results of the DA-RCOT framework trained under the all-in-one settin
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
   title={Degradation-Aware Residual-Conditioned Optimal Transport for Unified Image Restoration}, 
   year={2025},
-  volume={},
-  number={},
+  volume={47},
+  number={8},
   pages={1-16}}
 
 ```
