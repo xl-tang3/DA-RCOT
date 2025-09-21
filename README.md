@@ -112,12 +112,13 @@ python trainer.py --batchSize=2 --nEpochs=50 --pairnum=10000000 --Sigma=10000 --
 python trainer.py --batchSize=2 --nEpochs=55 --pairnum=10000000 --Sigma=10000 --sigma=1 --de_type derain dehaze denoise_25 deblur lowlight --patch_size=128 --type all --gpus=0 --backbone=MRCNet --step=15 --resume=none
 ```
 
-#### 
+### Evaluation
+```
+python tester.py
+```
 
-
-
-###  Pretrained Weights
-[Weights](https://drive.google.com/drive/folders/1upmN7JeXQjufH2dJhBoHMzUFlSTCrv2m?usp=sharing)
+###  Pretrained weights for 3D/5D degradations
+[Pretrained Weights](https://drive.google.com/drive/folders/1upmN7JeXQjufH2dJhBoHMzUFlSTCrv2m?usp=sharing)
 
 ### Results
 Performance results of the DA-RCOT framework trained under the all-in-one setting.
