@@ -18,7 +18,7 @@ parser.add_argument("--cuda", action="store_true", help="use cuda?")
 # parser.add_argument("--degset", default="./datasets/Deraining/Rain100H/input/", type=str, help="degraded data")
 # parser.add_argument("--tarset", default="./datasets/Deraining/Rain100H/target/", type=str, help="target data")
 
-parser.add_argument("--model", default="./checkpoint/model_allMRCNet128__55_1.0.pth", type=str, help="model path")
+parser.add_argument("--model", default="./checkpoint/model_allMRCNet128__30_1.0_5D.pth", type=str, help="model path")
 parser.add_argument("--saveres", default="./results/lowlight/RES/", type=str, help="savepath, Default: residual")
 parser.add_argument("--degset", default="./data/test/lowlight/low/", type=str, help="degraded data")
 parser.add_argument("--tarset", default="./data/test/lowlight/high/", type=str, help="target data")
